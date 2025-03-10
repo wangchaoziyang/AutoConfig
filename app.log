@@ -1,0 +1,57 @@
+2025-03-10 14:14:49,280 - __main__ - INFO - 应用程序启动
+2025-03-10 14:14:49,310 - models.os_mod_model - INFO - 尝试加载OS.INI文件: config\OS.INI
+2025-03-10 14:14:49,310 - models.os_mod_model - INFO - OS.INI文件存在，开始解析
+2025-03-10 14:14:49,310 - models.os_mod_model - INFO - 解析到以下节: ['WIN11-ENG-HOME', 'WIN10-ENG-HOME', 'Ubuntu', 'Ubuntu2']
+2025-03-10 14:14:49,310 - models.os_mod_model - INFO - 添加有效节 'WIN11-ENG-HOME' 及其参数: {'OSMOD': '46F86', 'QFEMOD': '247K3', 'EDITIONMOD': '417KX'}
+2025-03-10 14:14:49,310 - models.os_mod_model - INFO - 添加有效节 'WIN10-ENG-HOME' 及其参数: {'OSMOD': 'JJ8DK', 'QFEMOD': '0P1H1', 'EDITIONMOD': 'PYC0K'}
+2025-03-10 14:14:49,310 - models.os_mod_model - INFO - 添加有效节 'Ubuntu' 及其参数: {}
+2025-03-10 14:14:49,310 - models.os_mod_model - INFO - 添加有效节 'Ubuntu2' 及其参数: {}
+2025-03-10 14:14:49,310 - models.os_mod_model - INFO - 最终的有效选项列表: ['WIN11-ENG-HOME', 'WIN10-ENG-HOME', 'Ubuntu', 'Ubuntu2']
+2025-03-10 14:14:49,310 - models.os_mod_model - INFO - 发布选项更新信号，选项数量: 4
+2025-03-10 14:14:49,310 - models.os_mod_model - INFO - 发布事件总线事件: OS_MOD_OPTIONS_UPDATED
+2025-03-10 14:14:49,310 - models.os_mod_model - INFO - 成功加载 4 个OS MOD选项
+2025-03-10 14:14:49,321 - models.mod_model - INFO - MODModel初始化完成
+2025-03-10 14:14:49,330 - models.keyparts_model - INFO - KeyPartsModel初始化完成
+2025-03-10 14:14:49,335 - models.app_mod_model - INFO - AppModModel初始化完成
+2025-03-10 14:14:49,430 - ui.main_window - INFO - 显式更新OS MOD下拉框
+2025-03-10 14:14:49,527 - controllers.main_controller - INFO - 初始化时更新OS MOD选项
+2025-03-10 14:14:49,528 - controllers.main_controller - INFO - 已更新OS MOD选项: ['WIN11-ENG-HOME', 'WIN10-ENG-HOME', 'Ubuntu', 'Ubuntu2']
+2025-03-10 14:14:49,529 - __main__ - INFO - 事件总线已注册事件: ['config_file_selected', 'sheet_selected', 'pn_selected', 'os_mod_selected', 'phbom_file_selected', 'MOD_LOAD_CLICKED', 'MOD_ADD_CLICKED', 'KEYPARTS_LOAD_CLICKED', 'KEYPARTS_SEARCH_CLICKED', 'KEYPARTS_ADD_CLICKED', 'KEYPARTS_CLEAR_CLICKED', 'APP_MOD_ADD_CLICKED', 'config_file_select_clicked', 'config_file_ok_clicked', 'SHEET_CHANGED', 'PN_CHANGED', 'OS_MOD_CHANGED', 'LOAD_PHBOM_CLICKED', 'CLEAR_MOD_CLICKED', 'GENERATE_CLICKED', 'CHECK_CLICKED', 'OS_MOD_ADD_CLICKED', 'CONFIG_FILE_LOADED', 'SHEET_LIST_UPDATED', 'PN_LIST_UPDATED', 'config_details_updated', 'PHBOM_FILE_LOADED', 'error_occurred', 'os_mod_options_updated', 'WHQL_CHANGED', 'bypass_whql_clicked']
+2025-03-10 14:14:49,529 - __main__ - INFO - 事件 config_file_selected 有 1 个订阅者
+2025-03-10 14:14:49,529 - __main__ - INFO - 事件 sheet_selected 有 1 个订阅者
+2025-03-10 14:14:49,529 - __main__ - INFO - 事件 pn_selected 有 1 个订阅者
+2025-03-10 14:14:49,529 - __main__ - INFO - 事件 os_mod_selected 有 2 个订阅者
+2025-03-10 14:14:49,529 - __main__ - INFO - 事件 phbom_file_selected 有 1 个订阅者
+2025-03-10 14:14:49,529 - __main__ - INFO - 事件 MOD_LOAD_CLICKED 有 2 个订阅者
+2025-03-10 14:14:49,530 - __main__ - INFO - 事件 MOD_ADD_CLICKED 有 2 个订阅者
+2025-03-10 14:14:49,530 - __main__ - INFO - 事件 KEYPARTS_LOAD_CLICKED 有 2 个订阅者
+2025-03-10 14:14:49,530 - __main__ - INFO - 事件 KEYPARTS_SEARCH_CLICKED 有 2 个订阅者
+2025-03-10 14:14:49,530 - __main__ - INFO - 事件 KEYPARTS_ADD_CLICKED 有 2 个订阅者
+2025-03-10 14:14:49,530 - __main__ - INFO - 事件 KEYPARTS_CLEAR_CLICKED 有 2 个订阅者
+2025-03-10 14:14:49,530 - __main__ - INFO - 事件 APP_MOD_ADD_CLICKED 有 2 个订阅者
+2025-03-10 14:14:49,530 - __main__ - INFO - 事件 config_file_select_clicked 有 1 个订阅者
+2025-03-10 14:14:49,530 - __main__ - INFO - 事件 config_file_ok_clicked 有 1 个订阅者
+2025-03-10 14:14:49,531 - __main__ - INFO - 事件 SHEET_CHANGED 有 1 个订阅者
+2025-03-10 14:14:49,531 - __main__ - INFO - 事件 PN_CHANGED 有 1 个订阅者
+2025-03-10 14:14:49,531 - __main__ - INFO - 事件 OS_MOD_CHANGED 有 1 个订阅者
+2025-03-10 14:14:49,531 - __main__ - INFO - 事件 LOAD_PHBOM_CLICKED 有 1 个订阅者
+2025-03-10 14:14:49,531 - __main__ - INFO - 事件 CLEAR_MOD_CLICKED 有 1 个订阅者
+2025-03-10 14:14:49,531 - __main__ - INFO - 事件 GENERATE_CLICKED 有 1 个订阅者
+2025-03-10 14:14:49,531 - __main__ - INFO - 事件 CHECK_CLICKED 有 1 个订阅者
+2025-03-10 14:14:49,531 - __main__ - INFO - 事件 OS_MOD_ADD_CLICKED 有 1 个订阅者
+2025-03-10 14:14:49,531 - __main__ - INFO - 事件 CONFIG_FILE_LOADED 有 1 个订阅者
+2025-03-10 14:14:49,532 - __main__ - INFO - 事件 SHEET_LIST_UPDATED 有 1 个订阅者
+2025-03-10 14:14:49,532 - __main__ - INFO - 事件 PN_LIST_UPDATED 有 1 个订阅者
+2025-03-10 14:14:49,532 - __main__ - INFO - 事件 config_details_updated 有 1 个订阅者
+2025-03-10 14:14:49,532 - __main__ - INFO - 事件 PHBOM_FILE_LOADED 有 1 个订阅者
+2025-03-10 14:14:49,532 - __main__ - INFO - 事件 error_occurred 有 1 个订阅者
+2025-03-10 14:14:49,532 - __main__ - INFO - 事件 os_mod_options_updated 有 2 个订阅者
+2025-03-10 14:14:49,532 - __main__ - INFO - 事件 WHQL_CHANGED 有 1 个订阅者
+2025-03-10 14:14:49,532 - __main__ - INFO - 事件 bypass_whql_clicked 有 1 个订阅者
+2025-03-10 14:14:49,534 - ui.main_window - INFO - 更新OS MOD下拉框
+2025-03-10 14:14:49,534 - controllers.main_controller - INFO - 已清空OS MOD选项
+2025-03-10 14:14:49,534 - controllers.main_controller - INFO - 已清空OS MOD选项
+2025-03-10 14:14:49,534 - controllers.main_controller - INFO - 已清空OS MOD选项
+2025-03-10 14:14:49,535 - controllers.main_controller - INFO - 已清空OS MOD选项
+2025-03-10 14:14:49,535 - ui.components - INFO - 成功更新OS MOD下拉框，共5个选项
+2025-03-10 14:14:49,535 - ui.main_window - INFO - OS MOD下拉框已更新，选项数量: 4
